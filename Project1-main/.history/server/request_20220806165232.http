@@ -1,0 +1,30 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "minh",
+  "password": "minh"
+}
+
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "minh",
+  "password": "minh"
+}
+###
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "imageUrl": "React",
+  "nameproduct": "React",
+  "description": "React",
+  "price": "123"
+  "countInStock": 123,
+}
+
+

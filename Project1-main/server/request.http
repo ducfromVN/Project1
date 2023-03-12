@@ -1,0 +1,37 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "duc1234",
+  "password": "duc123"
+}
+
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "duc",
+  "password": "duc"
+}
+###
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "imageUrl": "React",
+  "nameproduct": "React",
+  "description": "React",
+  "price": 10,
+  "countInStock": 10
+}
+###
+DELETE http://localhost:5000/api/products/63da8dafb3981a2d2ed1c4ad
+
+
+###
+GET http://localhost:5000/api/products/63da8dafb3981a2d2ed1c4ad
+Content-Type: application/json
+
+
